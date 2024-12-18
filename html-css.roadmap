@@ -1,5 +1,6 @@
 
 01-HTML  
+|
 ├── 01-Introduction to HTML  
 │      ├── What is HTML?  
 │      ├── Role of HTML in web development  
@@ -56,3 +57,256 @@
        ├── Online practice: freeCodeCamp, Frontend Mentor  
        ├── Text editors: VS Code, Sublime Text  
        └── Version control with Git and GitHub  
+
+02-CSS 
+| 
+├── 01-Introduction to CSS  
+│      ├── What is CSS?  
+│      ├── Role of CSS in web development  
+│      ├── How browsers interpret CSS  
+│      └── Ways to apply CSS: inline, internal, external  
+│  
+├── 02-CSS Basics  
+│      ├── Syntax: selectors, properties, values  
+│      ├── Common properties: `color`, `background-color`, `font-size`  
+│      ├── Box model: `margin`, `border`, `padding`, `width`, `height`  
+│      ├── CSS units: px, em, rem, %, vw, vh  
+│      └── Adding styles with `class` and `id` selectors  
+│  
+├── 03-Selectors and Specificity  
+│      ├── Basic selectors: `*`, `type`, `.class`, `#id`  
+│      ├── Attribute selectors: `[attr=value]`  
+│      ├── Pseudo-classes: `:hover`, `:nth-child`, `:focus`  
+│      ├── Pseudo-elements: `::before`, `::after`  
+│      └── Specificity rules and `!important`  
+│  
+├── 04-Positioning and Layout  
+│      ├── Display types: `block`, `inline`, `inline-block`  
+│      ├── Positioning: `static`, `relative`, `absolute`, `fixed`, `sticky`  
+│      ├── Flexbox: `display: flex`, `justify-content`, `align-items`  
+│      ├── Grid: `display: grid`, `grid-template-rows`, `grid-template-columns`  
+│      ├── Float and clear  
+│      └── Z-index and stacking context  
+│  
+├── 05-Styling Text and Fonts  
+│      ├── Font families and web-safe fonts  
+│      ├── Font properties: `font-size`, `font-weight`, `line-height`  
+│      ├── Text properties: `text-align`, `text-decoration`, `text-transform`  
+│      ├── Using custom fonts with `@font-face`  
+│      └── Google Fonts integration  
+│  
+├── 06-Colors and Backgrounds  
+│      ├── Color formats: HEX, RGB, HSL, and named colors  
+│      ├── Background properties: `background-color`, `background-image`  
+│      ├── Gradients: linear and radial  
+│      ├── CSS variables (custom properties): `--var-name`  
+│      └── Transparency with `opacity` and `rgba()`  
+│  
+├── 07-CSS Transitions and Animations  
+│      ├── Transitions: `transition-property`, `transition-duration`  
+│      ├── Keyframes: `@keyframes`  
+│      ├── Animation properties: `animation-name`, `animation-duration`  
+│      ├── Easing functions: `ease`, `linear`, `ease-in-out`  
+│      └── Hover and focus effects with animations  
+│  
+├── 08-CSS Responsive Design  
+│      ├── Media queries: `@media`  
+│      ├── Breakpoints for different devices  
+│      ├── Responsive units: %, vw, vh, em, rem  
+│      ├── Flexbox and Grid for responsive layouts  
+│      └── Mobile-first design principles  
+│  
+├── 09-Advanced CSS Features  
+│      ├── CSS pseudo-classes and pseudo-elements in depth  
+│      ├── CSS preprocessors: SASS, LESS  
+│      ├── CSS frameworks: Bootstrap, Tailwind CSS  
+│      ├── Clipping and masking: `clip-path`, `mask`  
+│      └── CSS filters and blend modes  
+│  
+├── 10-Building Real Projects  
+│      ├── Responsive personal portfolio website  
+│      ├── Interactive landing page with animations  
+│      ├── Multi-page website with consistent design  
+│      └── Styled form and table components  
+│  
+├── 11-Best Practices  
+│      ├── Writing DRY (Don't Repeat Yourself) CSS  
+│      ├── Organizing stylesheets for scalability  
+│      ├── Optimizing for performance: minimizing and compressing CSS  
+│      └── Debugging and validating CSS  
+│  
+└── Resources and Tools  
+       ├── MDN Web Docs  
+       ├── CSS Tricks  
+       ├── Online practice: freeCodeCamp, Frontend Mentor  
+       ├── Code playgrounds: CodePen, JSFiddle  
+       ├── Browser DevTools for debugging  
+       └── CSS validation tools  
+
+03-SCSS  
+|
+├── 01-Introduction to SCSS  
+│      ├── What is SCSS?  
+│      ├── Difference between SCSS and CSS  
+│      ├── Installation and setup (Node.js, npm, Dart Sass)  
+│      ├── SCSS file extension and compilation to CSS  
+│      └── SCSS in modern development workflows (with tools like Webpack)  
+│  
+├── 02-Basics of SCSS  
+│      ├── Variables: `$variable-name`  
+│      ├── Nesting: writing cleaner code with nested selectors  
+│      ├── Partials and imports: `_filename.scss`, `@use`, `@import`  
+│      ├── Comments: `//` for single-line, `/* */` for multi-line  
+│      └── Using SCSS mixins and placeholders  
+│  
+├── 03-SCSS Variables and Data Types  
+│      ├── Defining and using variables: `$primary-color`, `$font-size`  
+│      ├── Default values: `!default`  
+│      ├── Data types: numbers, strings, colors, booleans, lists, maps  
+│      ├── Manipulating lists and maps  
+│      └── Built-in functions for colors, strings, and numbers  
+│  
+├── 04-Mixins and Functions  
+│      ├── Creating reusable styles with `@mixin`  
+│      ├── Using `@include` to apply mixins  
+│      ├── Parameterized mixins for dynamic styles  
+│      ├── Defining custom functions with `@function`  
+│      └── Using built-in SCSS functions (e.g., `darken`, `lighten`, `map-get`)  
+│  
+├── 05-Inheritance and Extending Styles  
+│      ├── Placeholder selectors: `%placeholder`  
+│      ├── Extending styles with `@extend`  
+│      ├── Avoiding duplication with placeholders and mixins  
+│      └── Best practices for managing inheritance  
+│  
+├── 06-Control Directives  
+│      ├── Conditional statements: `@if`, `@else`  
+│      ├── Loops: `@for`, `@each`, `@while`  
+│      ├── Handling lists and maps in loops  
+│      ├── Error handling with `@error`  
+│      └── Using `@debug` for debugging  
+│  
+├── 07-Modular SCSS  
+│      ├── Organizing SCSS files into modules  
+│      ├── Partials and `@use` for importing  
+│      ├── Namespaces and the `as` keyword  
+│      ├── Sharing variables and mixins across files  
+│      └── Migrating from `@import` to `@use` and `@forward`  
+│  
+├── 08-SCSS in Responsive Design  
+│      ├── Using SCSS variables for breakpoints  
+│      ├── Media query mixins  
+│      ├── Writing DRY responsive code  
+│      └── Managing breakpoints effectively with maps  
+│  
+├── 09-Advanced SCSS Techniques  
+│      ├── CSS Grid and Flexbox helpers with mixins  
+│      ├── Dynamic theming with SCSS variables  
+│      ├── Creating utility classes with loops  
+│      ├── Using SCSS with CSS frameworks (e.g., Bootstrap customization)  
+│      └── Optimizing SCSS for production builds  
+│  
+├── 10-Building Real Projects  
+│      ├── Themed portfolio website with SCSS variables  
+│      ├── Reusable component library with mixins and placeholders  
+│      ├── Modular e-commerce website  
+│      └── Responsive and dynamic landing page  
+│  
+├── 11-Best Practices  
+│      ├── Organizing SCSS code for scalability  
+│      ├── Avoiding deeply nested selectors  
+│      ├── Keeping CSS specificity low  
+│      ├── Using version control for large SCSS projects  
+│      └── Writing readable and maintainable SCSS  
+│  
+└── Resources and Tools  
+       ├── Official Sass documentation  
+       ├── SCSS starter projects on GitHub  
+       ├── Online practice: CodePen, Frontend Mentor  
+       ├── DevTools for debugging SCSS-generated CSS  
+       └── Tools for SCSS linting and optimization  
+
+
+04-DOM  
+|
+├── 01-Introduction to the DOM  
+│      ├── What is the DOM?  
+│      ├── Relationship between HTML, CSS, and JavaScript  
+│      ├── DOM tree structure: nodes, elements, attributes, and text  
+│      ├── How browsers parse and render the DOM  
+│      └── Accessing the DOM using the browser's DevTools  
+│  
+├── 02-Basics of DOM Manipulation  
+│      ├── Selecting elements: `getElementById`, `querySelector`, `querySelectorAll`  
+│      ├── Accessing element properties and attributes: `innerHTML`, `value`, `src`  
+│      ├── Modifying content: `innerText`, `textContent`, `appendChild`, `removeChild`  
+│      └── Adding and removing attributes: `setAttribute`, `removeAttribute`  
+│  
+├── 03-DOM Events  
+│      ├── What are events in the DOM?  
+│      ├── Adding event listeners: `addEventListener`  
+│      ├── Common events: `click`, `input`, `submit`, `keydown`, `mouseover`  
+│      ├── Event object and properties (`target`, `preventDefault`, `stopPropagation`)  
+│      └── Event delegation for optimizing performance  
+│  
+├── 04-Manipulating DOM Styles  
+│      ├── Accessing and changing styles with `style` property  
+│      ├── Working with `classList`: `add`, `remove`, `toggle`  
+│      ├── Inline styles vs. CSS classes  
+│      ├── Computed styles: `getComputedStyle`  
+│      └── Animations with JavaScript and CSS  
+│  
+├── 05-Creating and Modifying Elements  
+│      ├── Creating new elements with `createElement`  
+│      ├── Appending elements to the DOM: `append`, `prepend`, `insertBefore`  
+│      ├── Removing elements: `remove`, `removeChild`  
+│      ├── Cloning nodes: `cloneNode`  
+│      └── Creating templates dynamically  
+│  
+├── 06-Traversing the DOM  
+│      ├── Navigating through parent, child, and sibling nodes  
+│      ├── `parentNode`, `childNodes`, `firstChild`, `lastChild`  
+│      ├── `nextSibling`, `previousSibling`, `children`  
+│      └── Filtering elements with `matches` and `closest`  
+│  
+├── 07-Forms and User Interaction  
+│      ├── Accessing form elements: `document.forms`, `elements`  
+│      ├── Handling form events: `submit`, `change`, `input`  
+│      ├── Validating form input with JavaScript  
+│      ├── Preventing default behaviors (`e.preventDefault`)  
+│      └── Creating custom validation logic  
+│  
+├── 08-DOM Performance Optimization  
+│      ├── Minimizing reflows and repaints  
+│      ├── Using `DocumentFragment` for batch updates  
+│      ├── Debouncing and throttling event handlers  
+│      ├── Lazy loading elements for better performance  
+│      └── Measuring performance with `Performance API`  
+│  
+├── 09-Advanced DOM Concepts  
+│      ├── Shadow DOM and web components  
+│      ├── Mutation observers: monitoring changes to the DOM  
+│      ├── Working with iframes and cross-document manipulation  
+│      ├── Using `contenteditable` for editable elements  
+│      └── Custom events: creating and dispatching  
+│  
+├── 10-Building Real Projects  
+│      ├── Interactive to-do list  
+│      ├── Form validation with error messages  
+│      ├── Image carousel or slider  
+│      ├── Dynamic navigation menu  
+│      └── Modal dialog box with open/close functionality  
+│  
+├── 11-Best Practices  
+│      ├── Writing clean and readable DOM scripts  
+│      ├── Avoiding inline JavaScript in HTML  
+│      ├── Keeping JavaScript separate from the DOM structure  
+│      ├── Enhancing accessibility with proper ARIA roles  
+│      └── Testing DOM interactions with tools like Jest and Cypress  
+│  
+└── Resources and Tools  
+       ├── MDN Web Docs on DOM  
+       ├── Online practice: CodePen, JSFiddle  
+       ├── DevTools for debugging DOM manipulations  
+       ├── JavaScript libraries like jQuery (optional for legacy projects)  
+       └── DOM-related APIs: IntersectionObserver, ResizeObserver  

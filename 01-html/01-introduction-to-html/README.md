@@ -63,6 +63,25 @@ Browsers convert HTML into the visual webpages users see by:
 
 Every HTML document follows a standard structure that organizes its content and metadata:
 
+```html
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>  
+        <title>My First Page</title>  
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+        <link rel="stylesheet" href="styles.css">  
+    </head>
+    
+    
+    <body>  
+        <h1>Welcome to My Page</h1>  
+        <p>This is an example of an HTML document structure.</p>  
+    </body>
+
+</html>
+```
+
 - **`<!DOCTYPE>` Declaration:**  
   Specifies the HTML version (e.g., HTML5). This ensures the browser interprets the document in standards mode, avoiding rendering inconsistencies.
 - **Root `<html>` Element:**  

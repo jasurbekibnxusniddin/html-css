@@ -195,7 +195,7 @@ In today’s modern digital world, images are everything. The `<img>` tag has ev
 The attribute features information for your computer regarding the source, height, width and alt text of the image.
 
 Styling and Formats:
-![alt text](images/image-3.png)
+![alt text](../images/image-3.png)
 
 *You can check the file type of an image by right-clicking the item and selecting ‘Properties’.*
 
@@ -285,7 +285,7 @@ Let’s try it out. Open index.html and on a new line, enter the following HTML:
 Now hit save and check out the results in your browser. If everything worked out then it will display a bullet-pointed table displaying the information above.
 
 ## How To Add Tables In HTML
-![alt text](images/image-4.png)
+![alt text](../images/image-4.png)
 
 Tables can be styled in various ways – Codepen.io offers live previews to keep track of changes.
 Another way to keep your website looking neat and orderly is through the use of a table.

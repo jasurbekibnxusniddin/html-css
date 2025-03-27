@@ -42,10 +42,10 @@ There are many choices on the market. Here are a handful of the most popular:
 
 However, for this tutorial, we will use the Sublime Text 3 as it is free and also offers cross-platform support for Windows, Mac, and Linux users.
 
-![alt text](images/image.png)
+![alt text](../images/image.png)
 Sublime Text 3 has a mini-preview window on the right.
 
-![alt text](images/image-1.png)
+![alt text](../images/image-1.png)
 
 # Creating Your First HTML Webpage
 First off, you need to open your HTML editor, where you will find a clean white page on which to write your code.
@@ -63,7 +63,7 @@ These tags should be placed underneath each other at the top of every HTML page 
 
 `<body>` — This is where the content of the page goes.
 
-![alt text](images/image-2.png) *This is how your average HTML page is structured visually.*
+![alt text](../images/image-2.png) *This is how your average HTML page is structured visually.*
 
 
 ## Further Tags

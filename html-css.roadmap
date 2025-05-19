@@ -310,3 +310,6 @@
        ├── DevTools for debugging DOM manipulations  
        ├── JavaScript libraries like jQuery (optional for legacy projects)  
        └── DOM-related APIs: IntersectionObserver, ResizeObserver  
+
+
+vite
